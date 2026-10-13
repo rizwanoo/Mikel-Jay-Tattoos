@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@theme {
+  --font-syne: 'Syne', sans-serif;
+  --font-cinzel: 'Cinzel', serif;
+  --font-editorial: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  
+  --color-obsidian: #090909;
+  --color-charcoal: #141414;
+  --color-ivory: #F4F0E8;
+  --color-steel: #8C8C8C;
+  --color-crimson: #A51F2B;
+  --color-crimson-hover: #C92635;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #090909;
+  color: #F4F0E8;
+  overflow-x: hidden;
+}
+
+/* Editorial & Headline Typography */
+.font-syne {
+  font-family: var(--font-syne);
+}
+
+.font-cinzel {
+  font-family: var(--font-cinzel);
+}
+
+.font-editorial {
+  font-family: var(--font-editorial);
+}
+
+/* Custom minimal scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090909;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222222;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A51F2B;
+}
+
+/* Subtle film grain & cinematic vignette */
+.cinematic-vignette {
+  background: radial-gradient(circle at 50% 50%, rgba(9, 9, 9, 0) 30%, rgba(9, 9, 9, 0.75) 100%);
+}
+
+.subtle-film-grain {
+  background-image: radial-gradient(rgba(244, 240, 232, 0.035) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Floating animated tattoo machine / pen */
+@keyframes floatTattooPen {
+  0%, 100% {
+    transform: translateY(0px) rotate(-18deg);
+  }
+  50% {
+    transform: translateY(-18px) rotate(-12deg);
+  }
+}
+
+@keyframes needleVibe {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(3px);
+  }
+}
+
+.animate-float-pen {
+  animation: floatTattooPen 5s ease-in-out infinite;
+}
+
+.animate-needle-vibe {
+  animation: needleVibe 0.18s ease-in-out infinite;
+}
+

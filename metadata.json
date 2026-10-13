@@ -1,0 +1,6 @@
+{
+  "name": "Mikel&Jay Tattoos",
+  "description": "Mikel&Jay Tattoos | USA, New York — Premium cinematic portfolio and bespoke tattoo booking experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
