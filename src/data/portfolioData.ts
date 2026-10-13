@@ -1,0 +1,160 @@
+import { PortfolioItem } from '../types';
+
+export const PORTFOLIO_ITEMS: PortfolioItem[] = [
+  {
+    id: 'mj-01',
+    title: 'The Roman Sculpture Realism & Fine Drapery',
+    category: 'Black & Grey Realism',
+    image: '/portfolio/tattoo-1.jpg',
+    placement: 'Full Sleeve / Outer Forearm',
+    dimensions: 'Full Sleeve Scale',
+    sessionTime: 'Multi-Session Masterpiece',
+    year: '2026',
+    story: 'High-contrast classical realism featuring intricate marble stone texture, razor-sharp negative space highlights, and velvety charcoal shading.',
+    technique: '3-Round Bugpin Liner & 15-Curved Magnum Greywash'
+  },
+  {
+    id: 'mj-02',
+    title: 'Dark Mythological Warrior & Wing Composition',
+    category: 'Black & Grey Realism',
+    image: '/portfolio/tattoo-2.jpg',
+    placement: 'Forearm & Upper Bicep',
+    dimensions: '24 x 16 cm',
+    sessionTime: '8 Hours · Single Session',
+    year: '2026',
+    story: 'Dynamic mythological warrior rendering with deep black saturation and feathered gradients following muscle curves.',
+    technique: 'Micro-Needle Detailing & Dynamic Triple Black'
+  },
+  {
+    id: 'mj-03',
+    title: 'Renaissance Portraiture & Classical Gaze',
+    category: 'Black & Grey Realism',
+    image: '/portfolio/tattoo-3.jpg',
+    placement: 'Inner Forearm & Arm',
+    dimensions: '20 x 14 cm',
+    sessionTime: '7.5 Hours · Single Session',
+    year: '2025',
+    story: 'Ultra-smooth gradient greywash with photorealistic facial anatomy and sculpted highlights.',
+    technique: '0.25mm Single Needle & Soft Whip Shading'
+  },
+  {
+    id: 'mj-04',
+    title: 'Anatomical Vertebral & Botanical Flow',
+    category: 'Fine Line & Ornamental',
+    image: '/portfolio/tattoo-4.jpg',
+    placement: 'Spine & Upper Ribs',
+    dimensions: 'Full Back / Rib Scale',
+    sessionTime: '6 Hours · Single Session',
+    year: '2025',
+    story: 'Crisp, delicate ornamental lines shaped to breathe and bend organically with spinal movement.',
+    technique: 'Single Needle Precision & Stippled Texture'
+  },
+  {
+    id: 'mj-05',
+    title: 'Predatory Wildlife Realism & Fur Textures',
+    category: 'Black & Grey Realism',
+    image: '/portfolio/tattoo-5.jpg',
+    placement: 'Shoulder Blade & Arm',
+    dimensions: '22 x 18 cm',
+    sessionTime: '8.5 Hours · Single Session',
+    year: '2025',
+    story: 'Hyper-detailed wildlife portraiture capturing intense eye reflections, micro-whiskers, and soft fur volume.',
+    technique: 'Curved Magnum Greywash & 03 Bugpin'
+  },
+  {
+    id: 'mj-06',
+    title: 'Custom Dark Surrealism & Deep Chiaroscuro',
+    category: 'Custom Designs',
+    image: '/portfolio/tattoo-6.jpg',
+    placement: 'Outer Arm / Bicep',
+    dimensions: '18 x 14 cm',
+    sessionTime: '7 Hours · Single Session',
+    year: '2025',
+    story: 'Original client narrative blending ancient myth with contemporary underground dark surrealism.',
+    technique: 'Freehand Mapping & Solid Black Packing'
+  },
+  {
+    id: 'mj-07',
+    title: 'Advanced Anatomical Cover-Up Transformation',
+    category: 'Cover-Up Tattoos',
+    image: '/portfolio/tattoo-7.jpg',
+    placement: 'Upper Bicep & Shoulder',
+    dimensions: '26 x 16 cm',
+    sessionTime: '9 Hours · 2 Sessions',
+    year: '2026',
+    story: 'Surgical obscuration of decades-old damaged ink using multi-directional feather gradients and strategic negative space.',
+    technique: 'Multi-layer Heavy Black Saturation'
+  },
+  {
+    id: 'mj-08',
+    title: 'Sacred Floral & Geometric Fine Line',
+    category: 'Fine Line & Ornamental',
+    image: '/portfolio/tattoo-8.jpg',
+    placement: 'Clavicle & Forearm',
+    dimensions: '16 x 12 cm',
+    sessionTime: '5 Hours · Single Session',
+    year: '2025',
+    story: 'Delicate floral botanical lines with micro-stippling that holds long-term crispness on fragile skin zones.',
+    technique: 'Single Needle 0.20mm Bugpin'
+  },
+  {
+    id: 'mj-09',
+    title: 'Monumental Lion & Classical Crown Composition',
+    category: 'Black & Grey Realism',
+    image: '/portfolio/tattoo-9.jpg',
+    placement: 'Full Chest / Upper Arm',
+    dimensions: '28 x 20 cm',
+    sessionTime: '9 Hours · Single Session',
+    year: '2026',
+    story: 'Majestic lion realism with razor-fine mane strands and deeply shadowed regal crown ornamentation.',
+    technique: '17-Magnum Deep Shading & Single Needle Liners'
+  },
+  {
+    id: 'mj-10',
+    title: 'Custom Script & Blackwork Emblem',
+    category: 'Custom Designs',
+    image: '/portfolio/tattoo-10.jpg',
+    placement: 'Forearm / Wrist',
+    dimensions: '14 x 10 cm',
+    sessionTime: '4.5 Hours · Single Session',
+    year: '2025',
+    story: 'Handcrafted custom typography and dark illustrative talisman designed specifically for the client.',
+    technique: 'Freehand Precision Line Work'
+  },
+  {
+    id: 'mj-11',
+    title: 'Dark Skull & Floral Chiaroscuro',
+    category: 'Black & Grey Realism',
+    image: '/portfolio/tattoo-11.jpg',
+    placement: 'Outer Forearm',
+    dimensions: '18 x 12 cm',
+    sessionTime: '7 Hours · Single Session',
+    year: '2025',
+    story: 'Memento mori skull realism fused with dark organic rose petals, boasting velvety blacks and smooth mid-tones.',
+    technique: 'Greywash Wash 4-Tone System'
+  },
+  {
+    id: 'mj-12',
+    title: 'Geometric Mandala & Sacred Symmetry',
+    category: 'Fine Line & Ornamental',
+    image: '/portfolio/tattoo-12.jpg',
+    placement: 'Back of Arm & Elbow',
+    dimensions: '16 x 16 cm',
+    sessionTime: '6 Hours · Single Session',
+    year: '2025',
+    story: 'Pixel-perfect concentric mandala geometry balanced precisely across anatomical joint pivots.',
+    technique: 'Laser-precise Single Needle Stippling'
+  },
+  {
+    id: 'mj-13',
+    title: 'Complete Arm Blackwork Transformation',
+    category: 'Cover-Up Tattoos',
+    image: '/portfolio/tattoo-13.jpg',
+    placement: 'Full Forearm',
+    dimensions: 'Full Half-Sleeve',
+    sessionTime: '12 Hours · 2 Sessions',
+    year: '2026',
+    story: 'Masterful full-coverage transformation concealing irregular faded amateur tattoos into a bold, dark art collection.',
+    technique: 'Dense Obsidian Saturation & Redirection'
+  }
+];

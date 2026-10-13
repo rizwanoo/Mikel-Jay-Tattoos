@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#181818" />
+      <stop offset="100%" stop-color="#090909" />
+    </radialGradient>
+    <linearGradient id="goldEdge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4F0E8" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#A51F2B" />
+      <stop offset="100%" stop-color="#F4F0E8" stop-opacity="0.7" />
+    </linearGradient>
+  </defs>
+  <!-- Background disc -->
+  <circle cx="60" cy="60" r="58" fill="url(#bgGrad)" stroke="#222222" stroke-width="1.5" />
+  <!-- Subtle inner concentric ring -->
+  <circle cx="60" cy="60" r="51" fill="none" stroke="#F4F0E8" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2,3" />
+  <circle cx="60" cy="60" r="47" fill="none" stroke="#A51F2B" stroke-opacity="0.4" stroke-width="0.8" />
+  
+  <!-- Central Monogram M&J + Needle Motif -->
+  <!-- Vertical Needle axis -->
+  <line x1="60" y1="20" x2="60" y2="100" stroke="#F4F0E8" stroke-opacity="0.3" stroke-width="1" />
+  <polygon points="60,18 58.5,26 61.5,26" fill="#A51F2B" />
+  <polygon points="60,102 58.5,94 61.5,94" fill="#F4F0E8" fill-opacity="0.5" />
+  
+  <!-- Letter M -->
+  <path d="M 36,74 L 36,46 L 46,60 L 56,46 L 56,74" fill="none" stroke="#F4F0E8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Ampersand & Needle Cross -->
+  <path d="M 64,57 C 62,54 59,51 59,47 C 59,43 62,40 66,40 C 69,40 71,43 70,47 C 68,52 60,61 58,66 C 56,70 58,74 63,74 C 67,74 71,70 72,66 L 75,70" fill="none" stroke="#A51F2B" stroke-width="2.2" stroke-linecap="round" />
+
+  <!-- Letter J -->
+  <path d="M 72,46 L 82,46 L 82,67 C 82,72 79,75 74,75" fill="none" stroke="#F4F0E8" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Crimson Accent Diamond -->
+  <rect x="58.5" y="58.5" width="3" height="3" fill="#A51F2B" transform="rotate(45 60 60)" />
+
+  <!-- Circular arc text or dots -->
+  <circle cx="60" cy="27" r="1.5" fill="#A51F2B" />
+  <circle cx="60" cy="93" r="1.5" fill="#A51F2B" />
+  <circle cx="27" cy="60" r="1.5" fill="#F4F0E8" fill-opacity="0.6" />
+  <circle cx="93" cy="60" r="1.5" fill="#F4F0E8" fill-opacity="0.6" />
+</svg>
